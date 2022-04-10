@@ -11,7 +11,8 @@
 
 .cardContainer{
     border-radius: 10px;
-    border: 2px solid blueviolet;
+    border: 2px  blueviolet;
+    border-style: solid;
     width: 400px;
     height: 600px;
     /*
@@ -25,8 +26,8 @@
     border-radius: 100px;
     background-image: url('https://img.poki.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/4d335661790b49629e6b6ecc60ae09ec.png');
     border: 1px solid blue;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -45,6 +46,14 @@
 
 .userJob{
     font-size: 18px;
-    color: rgba(0, 0, 0, 60);
+    color: rgb(128, 128, 128)
+}
 
+.buttonStylee{
+    border: 1px solid black;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    color: black;
+    background-color: aqua;
 }
