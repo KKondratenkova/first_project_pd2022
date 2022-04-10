@@ -8,62 +8,9 @@
 }
 
 */
-
-.cardContainer{
-    border-radius: 10px;
-    border: 2px  blueviolet;
-    border-style: solid;
-    width: 400px;
-    height: 600px;
-    box-sizing: border-box;
-
-    /*
-    border-width: 2px;
-    border-color: blueviolet;
-    border-style: solid;
-    */
-}
-
-.photoContainer{
-    margin: 10px;
-    margin: 40px 10px 20px 10px;
-    border-radius: 100px;
-    background-image: url('https://img.poki.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/4d335661790b49629e6b6ecc60ae09ec.png');
-    border: 1px solid blue;
-    width: 200px;
-    height: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-sizing: border-box;
-
-}
-
-.infoContainer{
-    border: 1px solid blue;
-
-}
-.userName{
-    font-weight: bold;
-    font-size: 20px;
-    color: rgba(0, 0, 0, 1)
-
-}
-
-.userJob{
-    font-size: 18px;
-    color: rgb(128, 128, 128)
-}
-
-.buttonStylee{
-    border: 1px solid black;
-    width: 120px;
-    height: 50px;
-    border-radius: 5px;
-    color: black;
-    background-color: pink;
-}
-
-li{
-    border: 1px solid pink;
-    font-size: 20px;
+div{
+    width: 300px;
+    height: 150px;
+    border: 2px solid orange;
+    margin: 10px 10px 10px 10px;
 }
