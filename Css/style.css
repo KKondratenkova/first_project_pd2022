@@ -9,31 +9,42 @@
 
 */
 
-
-
-
-h1{
-    color: crimson;
-}
-/*атрибут class является глобальным и можно задать для любого элемента */
-.mark_for_paragraph{
-    background-color: aqua;
-    font-weight: bold;
-
-}
-
-.bigsize_for_paragraph{
-    font-size: 22px;
-}
-p{
- font-weight: normal;
-    font-size: 16px;
-}
-.text_to_uppercase{
-    text-transform: uppercase;
-}
-.img_class{
-    height: 200px;
+.cardContainer{
+    border-radius: 10px;
+    border: 2px solid blueviolet;
     width: 400px;
+    height: 600px;
+    /*
+    border-width: 2px;
+    border-color: blueviolet;
+    border-style: solid;
+    */
+}
+
+.photoContainer{
+    border-radius: 100px;
+    background-image: url('https://img.poki.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/4d335661790b49629e6b6ecc60ae09ec.png');
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.infoContainer{
+    border: 1px solid blue;
+
+}
+.userName{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1)
+
+}
+
+.userJob{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 60);
 
 }
