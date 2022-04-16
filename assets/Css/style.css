@@ -1,0 +1,11 @@
+p.blueText{
+    color: blue;
+}
+
+.bigText{
+    font-size: 22px;
+}
+
+.bluetext.bigText{
+    background-color: yellow;
+}
