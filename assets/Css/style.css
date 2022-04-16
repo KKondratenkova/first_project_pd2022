@@ -1,41 +1,12 @@
-/*.nav{
-   list-style-type: none; 
-   
-
-}
-
-ul.nav > li{
+.header_style{
     font-size: 20px;
-   border: 2px solid deeppink;
-   width: 200px;
-   height: 30px;
-   display: inline-block;
-
-}*/
-p{
-    color: deepskyblue;
-}
-
-div > p{
     color: deeppink;
+    text-transform: uppercase;
 }
 
-div.class3 p {
-    color: blueviolet;
+#idheader2{
+    border: 2px dotted chartreuse;
 }
-.class3{
-    border: 2px solid deepskyblue;
-    background-color: beige;
-}
-
-
-
-
-
-
-
-
-
 
 
 
