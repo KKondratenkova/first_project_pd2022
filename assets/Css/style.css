@@ -20,9 +20,18 @@ div > p{
     color: deeppink;
 }
 
-div.class1 > p {
+div.class3 p {
     color: blueviolet;
 }
+.class3{
+    border: 2px solid deepskyblue;
+    background-color: beige;
+}
+
+
+
+
+
 
 
 
