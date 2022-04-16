@@ -4,7 +4,7 @@
 
 }
 
-li{
+ul.nav > li{
     font-size: 20px;
    border: 2px solid deeppink;
    width: 200px;
@@ -12,3 +12,7 @@ li{
    display: inline-block;
 
 }
+
+
+
+
