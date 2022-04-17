@@ -1,33 +1,84 @@
-.grand{
-    width: 600px;
-    height: 450px;
+body{
+    background-color: violet;
+}
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.card1{    background-image:linear-gradient(to right, rgba(238, 238, 250, 0.763), rgba(34, 34, 231, 0.856));
+
+}
+
+.card2{    background-image:linear-gradient(to right, rgba(238, 238, 250, 0.763), rgb(188, 6, 57));
+
+}
+
+.card3{    background-image:linear-gradient(to right, rgba(238, 238, 250, 0.763), rgb(4, 175, 12));
+
+}
+
+.cardlist > li {
+    display: inline-block;
+
+}
+
+.container{
+    width: 450px;
+    height: 300px;
+    border: 2px solid rgb(rgb(14, 50, 255), rgb(28, 17, 232), rgba(0, 0, 255, 0.337));
     background-color: deepskyblue;
-    border: 2px solid blue;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
 }
 
-.parent{
-    width: 500px;
-    height: 410px;
-    background-color: deeppink;
-    border: 2px solid pink;
-    margin: 10px;
+.circle1{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    left: 330px;
+    top: -20px;
 }
 
-.clild1{
-    width: 200px;
-    height: 200px;
-    background-color: greenyellow;
-    border: 2px solid green;
-    
-   
+.circle2{
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    left: 210px;
+    top: 150px;
+
+}
+.info{
+    color: aliceblue;
+    position: absolute;
+    left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.clild2{
-width: 200px;
-height: 200px;
-background-color: yellow;
-border: 2px solid green;
+.WO{
+    font-size: 20px;
+    position: relative;
+    top: 30px;
 }
+
+.money{
+    font-size: 40px;
+    position: relative;
+    top: 55px;
+}
+
+.per{
+    font-size: 18px;
+    top: 150px;
+    position: relative;
+}
+
+
+
 /*
 
 *{
